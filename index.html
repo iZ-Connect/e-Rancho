@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>e-Rancho - Sistema de Arranchamento</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'military-green': {
+                DEFAULT: '#5A6E59',
+                dark: '#485847',
+              },
+              'military-green-text': '#85a684',
+              'navy-blue': {
+                light: '#3e5a7b',
+                DEFAULT: '#2C425B', // Card background
+                dark: '#263240',   // Page background
+              },
+              'neutral-gray': {
+                light: '#c1c1c1',
+                DEFAULT: '#A0A0A0',
+                dark: '#7f8c8d',
+              },
+              'icon-white': '#FFFFFF',
+            },
+          }
+        }
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "date-fns/": "https://aistudiocdn.com/date-fns@^4.1.0/",
+    "date-fns": "https://aistudiocdn.com/date-fns@^4.1.0"
+  }
+}
+</script>
+</head>
+  <body class="bg-navy-blue-dark text-neutral-gray">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>

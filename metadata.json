@@ -1,0 +1,5 @@
+{
+  "name": "e-Rancho",
+  "description": "A web application to manage meal scheduling for a Military Organization, featuring a hierarchical access system for soldiers, supervisors, and administrators.",
+  "requestFramePermissions": []
+}
